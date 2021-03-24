@@ -1,0 +1,8 @@
+prefix=/home/bharat/workspace/arduino_ws/src/build/devel
+
+Name: helloworld
+Description: Description of helloworld
+Version: 0.0.0
+Cflags: -I/home/bharat/workspace/arduino_ws/src/helloworld/include
+Libs: -L${prefix}/lib 
+Requires: 

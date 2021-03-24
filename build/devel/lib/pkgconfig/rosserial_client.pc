@@ -1,0 +1,8 @@
+prefix=/home/bharat/workspace/arduino_ws/src/build/devel
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.9.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

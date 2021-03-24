@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bharat/workspace/arduino_ws/src/build/devel/setup.sh

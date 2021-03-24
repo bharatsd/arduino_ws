@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/g++-7  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_client",
+  "command": "/usr/bin/g++-7  -DROS_BUILD_SHARED_LIBS=1 -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/float64_test.dir/test/float64_test.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/float64_test.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/float64_test.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_client",
+  "command": "/usr/bin/g++-7  -DROS_BUILD_SHARED_LIBS=1 -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/subscriber_test.dir/test/subscriber_test.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/subscriber_test.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/subscriber_test.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_client",
+  "command": "/usr/bin/g++-7  -DROS_BUILD_SHARED_LIBS=1 -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/time_test.dir/test/time_test.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/time_test.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/test/time_test.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_client",
+  "command": "/usr/bin/g++-7  -DROS_BUILD_SHARED_LIBS=1 -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/time_test.dir/src/ros_lib/duration.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib/duration.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib/duration.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_client",
+  "command": "/usr/bin/g++-7  -DROS_BUILD_SHARED_LIBS=1 -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/time_test.dir/src/ros_lib/time.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib/time.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_client/src/ros_lib/time.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_server",
+  "command": "/usr/bin/g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/include -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/udp_socket_node.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/udp_socket_node.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_server",
+  "command": "/usr/bin/g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/include -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/socket_node.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/socket_node.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_server",
+  "command": "/usr/bin/g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -Drosserial_server_lookup_EXPORTS -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/include -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/python2.7  -g -fPIC   -o CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/msg_lookup.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/msg_lookup.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_server",
+  "command": "/usr/bin/g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/include -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/serial_node.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/src/serial_node.cpp"
+},
+{
+  "directory": "/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_test",
+  "command": "/usr/bin/g++-7  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_test\\\" -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_test/include -I/home/bharat/workspace/arduino_ws/src/build/rosserial/rosserial_test/include -I/home/bharat/workspace/arduino_ws/src/build/devel/include -I/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_server/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o -c /home/bharat/workspace/arduino_ws/src/rosserial/rosserial_test/src/publish_subscribe.cpp",
+  "file": "/home/bharat/workspace/arduino_ws/src/rosserial/rosserial_test/src/publish_subscribe.cpp"
+}
+]
