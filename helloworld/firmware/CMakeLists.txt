@@ -11,7 +11,7 @@ set(RF24_RECURSE True)
 # add_definitions(-DUSB_CON)
 
 generate_arduino_firmware(hello
-  SRCS flipper_motor.cpp ${ROS_LIB_DIR}/time.cpp /home/bharat/Arduino/libraries/AccelStepper-1.61.0/src/AccelStepper.cpp
+  SRCS flipper_2.cpp ${ROS_LIB_DIR}/time.cpp /home/bharat/Arduino/libraries/AccelStepper-1.61.0/src/AccelStepper.cpp
   HDRS /home/bharat/Arduino/libraries/AccelStepper-1.61.0/src/AccelStepper.h
   BOARD uno
   PORT /dev/ttyACM0

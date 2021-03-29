@@ -25,7 +25,7 @@ float pos;
 std_msgs::Float32 published_actual_pos;
 int i = 1;
 int joint_status;
-int pulse_per_rev = 3200*30;
+int pulse_per_rev = 3200;
 int no_of_steps_per_rev = 200;
 ros::Publisher chatter("chatter", &position_motor);
 ros::Publisher chatter2("chatter2", &published_actual_pos);
@@ -54,14 +54,14 @@ void positionCb(const std_msgs::Float32 &input_position)
     published_actual_pos.data = actualPosition(subscribed_position);
     chatter2.publish(&published_actual_pos);
     nh.spinOnce();
-    motor_1.moveTo(subscribed_position *2* pulse_per_rev / 360); //input move distance
+    motor_1.moveTo(subscribed_position * pulse_per_rev / 360); //input move distance
     nh.spinOnce();
     delay(50);
     while (motor_1.distanceToGo() != 0)
     {
         nh.spinOnce();
         motor_1.run();
-        position_motor.data = (motor_1.currentPosition()) * 180 / pulse_per_rev;
+        position_motor.data = (motor_1.currentPosition()) * 360 / pulse_per_rev;
         chatter.publish(&position_motor);
     }
     nh.spinOnce();
