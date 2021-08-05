@@ -5,7 +5,7 @@
 #include <Arduino.h>
 #include <ArduinoHardware.h>
 // #include <cmath>
-#include "/home/bharat/Arduino/libraries/AccelStepper-1.61.0/src/AccelStepper.h"
+#include "/home/composite-cell2/snap/arduino/56/Arduino/libraries/AccelStepper/src/AccelStepper.h"
 
 using namespace std;
 
@@ -25,8 +25,9 @@ float pos;
 std_msgs::Float32 published_actual_pos;
 int i = 1;
 int joint_status;
-int pulse_per_rev = 3200*30;
-int no_of_steps_per_rev = 200;
+// int pulse_per_rev = 3200*30;
+float pulse_per_rev = 3200*47;
+// int no_of_steps_per_rev = 200;
 ros::Publisher chatter("chatter", &position_motor);
 ros::Publisher chatter2("chatter2", &published_actual_pos);
 AccelStepper motor_1(1, 3, 4);
@@ -54,15 +55,18 @@ void positionCb(const std_msgs::Float32 &input_position)
     published_actual_pos.data = actualPosition(subscribed_position);
     chatter2.publish(&published_actual_pos);
     nh.spinOnce();
-    motor_1.moveTo(subscribed_position *2* pulse_per_rev / 360); //input move distance
+    motor_1.moveTo(subscribed_position * pulse_per_rev); //input move distance
     nh.spinOnce();
     delay(50);
     while (motor_1.distanceToGo() != 0)
     {
         nh.spinOnce();
+        // for(int i=0;i< 10;i++){
         motor_1.run();
+        // }
         position_motor.data = (motor_1.currentPosition()) * 180 / pulse_per_rev;
         chatter.publish(&position_motor);
+
     }
     nh.spinOnce();
     // joint_status = 0;
@@ -77,9 +81,9 @@ void setup()
     // put your setup code here, to run once:
     nh.initNode();
 
-    motor_1.setMaxSpeed(2500);
-    motor_1.setAcceleration(100);
-    // motor_1.setSpeed(45);
+    motor_1.setMaxSpeed(pulse_per_rev*100000);
+    motor_1.setAcceleration(pulse_per_rev*20000);
+    // motor_1.setSpeed(pulse_per_rev*1000); // ZM 4500
     motor_1.setEnablePin();
     nh.advertise(chatter);
     nh.advertise(chatter2);

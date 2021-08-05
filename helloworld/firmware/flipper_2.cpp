@@ -5,7 +5,7 @@
 #include <Arduino.h>
 #include <ArduinoHardware.h>
 // #include <cmath>
-#include "/home/bharat/Arduino/libraries/AccelStepper-1.61.0/src/AccelStepper.h"
+#include "/home/composite-cell2/Desktop/arduino_ws/src/arduino_ws/AccelStepper-1.61.0/src/AccelStepper.h"
 
 using namespace std;
 
@@ -70,7 +70,7 @@ void positionCb(const std_msgs::Float32 &input_position)
     // joint_status = 0;
 }
 
-ros::Subscriber<std_msgs::Float32> sub("arduino_position_topic", &positionCb);
+ros::Subscriber<std_msgs::Float32> sub("flipper_position_topic", &positionCb);
 
 void setup()
 {
